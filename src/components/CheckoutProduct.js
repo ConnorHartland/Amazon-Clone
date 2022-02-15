@@ -4,6 +4,8 @@ import Image from "next/image";
 import { StarIcon } from "@heroicons/react/solid";
 import Currency from "react-currency-formatter";
 
+
+// Checkout with props ID, TITLE, PRICE, RATING, etc...
 function CheckoutProduct({
   id,
   title,

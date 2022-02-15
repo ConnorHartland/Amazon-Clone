@@ -1,5 +1,6 @@
 import { Carousel } from "react-responsive-carousel";
 
+// Banneer component
 function Banner() {
   return (
     <div className="relative">

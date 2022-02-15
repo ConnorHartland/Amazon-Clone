@@ -9,6 +9,8 @@ import { selectItems } from "../slices/basketSlice";
 import { useRouter } from "next/router";
 import { signIn, signOut, useSession } from "next-auth/client";
 
+
+// HEADER component at top of page
 function Header() {
   const items = useSelector(selectItems);
   const router = useRouter();

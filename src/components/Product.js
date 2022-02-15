@@ -8,6 +8,8 @@ import { addToBasket } from "../slices/basketSlice";
 const MAX_RATING = 5;
 const MIN_RATING = 1;
 
+
+// Functionality of adding Product to add to cart
 function Product({ id, title, price, description, category, image }) {
   const dispatch = useDispatch();
 
@@ -54,7 +56,7 @@ function Product({ id, title, price, description, category, image }) {
       <div className="mb-5">
         <Currency quantity={price} currency="GBP" />
       </div>
-
+          {/* Can change dependent on having prime */}
       {hasPrime && (
         <div className="flex items-center space-x-2 -mt-5">
           <img className="w-12" src="https://links.papareact.com/fdw" alt="" />

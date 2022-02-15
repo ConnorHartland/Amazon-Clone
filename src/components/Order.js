@@ -1,6 +1,9 @@
 import moment from "moment";
 import Currency from "react-currency-formatter";
 
+// Order functionality
+
+// USING GBP vs USD because of tutorial being followed was British
 function Order({ id, amount, amountShipping, items, timestamp, images }) {
   return (
     <div className="relative border rounded-md">
